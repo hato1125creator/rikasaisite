@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite --host",
-    "build": "npm install --legacy-peer-deps && vite build && esbuild server/index.ts --platform=node --bundle --format=esm --outdir=dist",
+    "build": "vite build",
     "preview": "vite preview --host",
     "check": "tsc --noEmit",
     "format": "prettier --write ."

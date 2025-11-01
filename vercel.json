@@ -1,8 +1,5 @@
 {
   "buildCommand": "pnpm build",
   "outputDirectory": "dist/public",
-  "framework": "vite",
-  "env": {
-    "VITE_GAS_DEPLOYMENT_URL": "vite_gas_deployment_url"
-  }
+  "framework": "vite"
 }
